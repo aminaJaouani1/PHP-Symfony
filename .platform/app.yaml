@@ -1,0 +1,8 @@
+relationships:
+    database: "database:postgresql"
+
+runtime:
+    extensions:
+        # other extensions
+        - pdo_pgsql
+        # other extensions
