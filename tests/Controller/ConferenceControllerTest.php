@@ -12,5 +12,6 @@ final class ConferenceControllerTest extends WebTestCase
         $client->request('GET', '/conference');
 
         self::assertResponseIsSuccessful();
+        $this->assertSelectorTextContains('h2', 'Give your feedback');
     }
 }
