@@ -88,7 +88,7 @@ class Conference
         return $this->isInternational;
     }
 
-    public function setIsInternational(bool $isInternational): static
+    public function setInternational(bool $isInternational): static
     {
         $this->isInternational = $isInternational;
 
